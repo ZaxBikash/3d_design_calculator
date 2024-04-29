@@ -1,0 +1,143 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background-color: #97d2ff;
+  outline: none;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .box {
+  width: 330px;
+  height: 520px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid red;
+  border-radius: 30px;
+}
+
+.calculator {
+  background-color: #ecf0f3;
+  padding: 15px;
+  border-radius: 30px;
+  box-shadow: inset 5px 5px 12px white,
+    5px 5px 12px rgba(0, 0, 0, 0.16);
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+}
+
+input {
+  grid-column: span 4;
+  height: 70px;
+  width: 260px;
+  background-color: #ecf0f3;
+  box-shadow: inset -5px -5px 12px white,
+    inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+  border: none;
+  border-radius: 30px;
+  color: rgb(70, 70, 70);
+  font-size: 50px;
+  text-align: end;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+button {
+  height: 48px;
+  width: 48px;
+  background-color: #ecf0f3;
+  box-shadow: -5px -5px 12px white,
+    5px 5px 12px rgba(0, 0, 0, 0.16);
+  border: none;
+  border-radius: 50px;
+  margin: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(100, 255, 100);
+}
+
+.equal {
+  width: 115px;
+  border-radius: 40px;
+  background-color: #45aeffaa;
+  box-shadow: -5px -5px 12px white,
+    5px 5px 12px rgba(0, 0, 0, 0.16);
+}
+
+.equal:hover {
+  background-color: blue;
+}
+
+.delet {
+  border-radius: 40px;
+  background-color: #ff2a2ac3;
+  box-shadow: -5px -5px 12px white,
+    5px 5px 12px rgba(0, 0, 0, 0.16);
+}
+
+.delet:hover {
+  background-color: red;
+}
+
+.sms {
+  text-decoration: none;
+  margin: 50px;
+  width: 200px;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+
+.btn-sms {
+  width: 150px;
+  padding: 10px 20px;
+  margin-right: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-sms:hover {
+  background: black;
+}
+
+.btn-port {
+  width: 150px;
+  padding: 10px 20px;
+  margin-left: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-port:hover {
+  background: black;
+}
